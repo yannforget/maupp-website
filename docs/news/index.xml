@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on MAUPP</title>
+    <link>http://maupp.ulb.ac.be/news/</link>
+    <description>Recent content in News on MAUPP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jan 2017 01:41:57 +0200</lastBuildDate>
+    
+	<atom:link href="http://maupp.ulb.ac.be/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Understanding Risk Forum</title>
+      <link>http://maupp.ulb.ac.be/news/risk-forum/</link>
+      <pubDate>Thu, 19 Jan 2017 01:41:57 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/risk-forum/</guid>
+      <description>Catherine participated to the 2016 Understanding Risk Forum in Venezia (Italy) on May 16-20, 2016. She was speaker in a session on &amp;lsquo;Building a less risky future: how today&amp;rsquo;s decisions shape disaster risk in the cities of tomorrow&amp;rsquo; organized by GFDRR &amp;amp; Stanford University. Her presentation was entitled &amp;lsquo;Modelling and forecasting urban population patterns for vulnerability assessment&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>JURSE 2017</title>
+      <link>http://maupp.ulb.ac.be/news/jurse2017/</link>
+      <pubDate>Thu, 19 Jan 2017 01:33:32 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/jurse2017/</guid>
+      <description>The MAUPP team will be well represented at the Joint Urban Remote Sensing Event (JURSE 2017) that will take place in Dubai, UAE, on March 6-8, 2017. Within a special session on &amp;lsquo;Urban remote sensing for sub-Saharan Africa&amp;rsquo; organized by Michal Shimoni and Eléonore Wolff, three papers from the MAUPP team will be presented:
+ Vanhuysse, S., Grippa, T., Lennert, M., Wolff, E., Idrissa, M “Contribution of nDSM derived from VHR stereo imagery to urban land-cover mapping in Sub-Saharan Africa”.</description>
+    </item>
+    
+    <item>
+      <title>Global Land Project third Open Science Meeting</title>
+      <link>http://maupp.ulb.ac.be/news/global-land-project/</link>
+      <pubDate>Thu, 19 Jan 2017 01:33:22 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/global-land-project/</guid>
+      <description>Catherine participated to the Global Land Project third Open Science Meeting (GLP-OSM) in Beijing, China, October 24-27, 2016. She organized a session with two WorldPop colleagues on &amp;lsquo;Global High Resolution Population Denominators and Urban Spatial Dynamics&amp;rsquo;. The session was very well attended and included seven different talks that ranged from the methodological aspects of global population datasets to the quantification and implications of remote-sensing derived measures of land cover, specifically urban systems.</description>
+    </item>
+    
+    <item>
+      <title>GEOBIA 2016</title>
+      <link>http://maupp.ulb.ac.be/news/geobia2016/</link>
+      <pubDate>Sat, 07 May 2016 01:32:59 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/geobia2016/</guid>
+      <description>The MAUPP project will be present at the GEOBIA 2016 conference for an oral presentation.
+http://maupp.ulb.ac.be/geobia_2016</description>
+    </item>
+    
+    <item>
+      <title>From urban mapping to population modelling: current challenges and opportunities</title>
+      <link>http://maupp.ulb.ac.be/news/seminar2015/</link>
+      <pubDate>Mon, 30 Nov 2015 01:33:09 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/seminar2015/</guid>
+      <description>Public seminar This seminar is organized by the MAUPP project, and funded by the BELSPO STEREO III Program.
+## Practical informations
+The event will take place on 13th January 2015, between 2 and 6 PM, at the Salle Solvay, Building NO, 5th floor (Campus de la Plaine, ULB - 1050 Brussels).
+Registration is free, but the number of seats is limited.
+An access map is available on the ULB website.</description>
+    </item>
+    
+    <item>
+      <title>The WorldPop team is getting bigger!</title>
+      <link>http://maupp.ulb.ac.be/news/worldpop-team-bigger/</link>
+      <pubDate>Tue, 27 Oct 2015 01:32:22 +0200</pubDate>
+      
+      <guid>http://maupp.ulb.ac.be/news/worldpop-team-bigger/</guid>
+      <description>Catherine and Yann participated to a WorldPop project meeting in Southampton on October 1st - 2nd, 2015.</description>
+    </item>
+    
+  </channel>
+</rss>
