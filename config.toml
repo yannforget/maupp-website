@@ -1,0 +1,34 @@
+baseURL = "http://maupp.ulb.ac.be"
+languageCode = "en-us"
+title = "MAUPP"
+theme = "maupp"
+
+[params]
+    acronym = "MAUPP"
+    fullname = "Modeling and Forecasting Urban Population Patterns in Africa"
+
+[[menu.main]]
+    name = "Project"
+    weight = 1
+    identifier = "project"
+    url = "/project/"
+[[menu.main]]
+    name = "News"
+    weight = 2
+    identifier = "news"
+    url = "/news/"
+[[menu.main]]
+    name = "Partners"
+    weight = 3
+    identifier = "partners"
+    url = "/partners/"
+[[menu.main]]
+    name = "Team"
+    weight = 4
+    identifier = "team"
+    url = "/team/"
+[[menu.main]]
+    name = "Publications"
+    weight = 5
+    identifier = "publications"
+    url = "/publications/"

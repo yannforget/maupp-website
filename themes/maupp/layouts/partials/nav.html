@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+  <div class="container">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">MAUPP</a>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
