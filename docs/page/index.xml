@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on MAUPP</title>
-    <link>http://maupp.ulb.ac.be/page/</link>
+    <link>https://yannforget.github.io/maupp-website/page/</link>
     <description>Recent content in Pages on MAUPP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Sep 2017 22:09:22 +0200</lastBuildDate>
     
-	<atom:link href="http://maupp.ulb.ac.be/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yannforget.github.io/maupp-website/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://maupp.ulb.ac.be/page/about/</link>
+      <link>https://yannforget.github.io/maupp-website/page/about/</link>
       <pubDate>Sun, 10 Sep 2017 22:09:22 +0200</pubDate>
       
-      <guid>http://maupp.ulb.ac.be/page/about/</guid>
+      <guid>https://yannforget.github.io/maupp-website/page/about/</guid>
       <description>The MAUPP project (Modelling and forecasting African Urban Population Patterns for vulnerability and health assessments) is a four-year research project funded by the STEREO-III program of the Belgian Science Policy (BELSPO).
 The main objective of MAUPP is to develop models and forecasts to improve our knowledge of sub-Saharan African urban population patterns for a wider usage of urban population distribution datasets in vulnerability and health assessments. The MAUPP project aims to contribute to the WorldPop open access archive of spatial demographic datasets.</description>
     </item>
