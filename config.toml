@@ -1,4 +1,4 @@
-baseURL = "https://yannforget.github.io/maupp-website/"
+baseURL = "http://maupp.ulb.ac.be/"
 languageCode = "en-us"
 title = "MAUPP"
 theme = "maupp"
