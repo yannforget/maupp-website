@@ -27,6 +27,10 @@ In *Applied geography (Sevenoaks, England)*, volume 44, 2013.
 
 ---
 
+[A local segmentation parameter optimization approach for mapping heterogeneous urban environments using VHR imagery](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10431/0000/A-local-segmentation-parameter-optimization-approach-for-mapping--heterogeneous/10.1117/12.2278422.short?SSO=1)  
+Taïs Grippa, Stefanos Georganos, Moritz Lennert, Sabine Vanhuysse and Eléonore Wolff  
+In *SPIE Remote Sensing*, Warsaw, 2017.
+
 [Extraction of African urban and rural structural features using SAR sentinel-1 data](https://doi.org/10.1109/JURSE.2017.7924568)  
 Juan Francisco Lopez, Michal Shimoni and Taïs Grippa  
 In *2017 Joint Urban Remote Sensing Event (JURSE)*, Dubaï, 2017.
