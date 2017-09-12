@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container partners">
+  <div class="row">
+		<div class="col-md-12">
+			<h2>Partners of the MAUPP project</h2>
+		</div>
+	</div>
+	
+      {{ range .Data.Pages }}
+			
+		<div class="row partner vertical-align">
+			<div class="col-md-4 text-center">
+				<img class="img-responsive" src="{{ .Params.logo }}">
+			</div>
+			<div class="col-md-8 text-left">
+				<h3>{{ .Title }}<br><small>{{ .Params.institution }}</small></h3>
+				<p>{{ .Content }}<br><a href="{{ .Params.website }}"><i class="fa fa-globe" aria-hidden="true"></i> Website</a></p>
+			</div>
+		</div>
+
+			{{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}

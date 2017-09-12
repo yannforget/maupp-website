@@ -1,19 +1,30 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
 
   <div class="container">
 
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">MAUPP</a>
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img class="logo" src="/images/maupp_white.png" alt="Logo"> MAUPP</a>
 
     <div class="collapse navbar-collapse" id="navbarToggler">
       <ul class="navbar-nav">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-          <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-        </li>
+					{{ if .HasChildren }}
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">{{ .Name }}</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							{{ range .Children }}
+							<a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+							{{ end }}
+						</div>
+					</li>
+					{{ else }}
+					<li class="nav-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+						<a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+					</li>
+					{{ end }}
         {{ end }}
       </ul>
     </div>

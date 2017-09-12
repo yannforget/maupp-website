@@ -1,6 +1,10 @@
 ---
-title: "Mgilbert"
-date: 2017-09-11T02:32:46+02:00
-draft: true
+title: "Marius Gilbert"
+job: "Senior Researcher"
+lab: "Spatial Epidemiology Lab"
+institution: "Université Libre de Bruxelles"
+webpage: "http://spell.ulb.be/person/marius-gilbert/"
+portrait: "/images/mgilbert.png"
+weight: 4
 ---
 

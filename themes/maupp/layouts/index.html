@@ -2,38 +2,36 @@
 {{ partial "nav.html" . }}
 
 <div class="container-fluid header-image">
-  <h1>{{ .Site.Params.acronym }}</h1>
-  <h3>{{ .Site.Params.fullname }}</h3>
+  <h1>
+		<strong>MAUPP</strong><br>
+    <small>
+			<strong>M</strong>odeling and forecasting <strong>A</strong>frican
+			<strong>U</strong>rban <strong>P</strong>opulation <strong>P</strong>atterns
+		</small>
+  </h1>
 </div>
 
 <div class="container site-content">
 
   <div class="row">
     <div class="col-md-12">
-      <h2>About</h2>
+      <h2>What is MAUPP ?<hr></h2>
       {{ with .Site.GetPage "page" "page/about.md" }}{{ .Content }}{{ end }}
     </div>
   </div>
 
   <div class="row">
     <div class="col-md-12">
-      <h2>Latest News</h2>
+      <h2>Latest News<hr></h2>
       {{ range first 3 ( where .Site.Pages ".Section" "news" ) }}
       <p>
-        <a href="{{ .Permalink }}"><h4>{{ .Title }}</h4></a>
-        <p><small>On {{ .Date.Format "January 02 2006" }}{{ if .Params.author }} by {{ .Params.author }}{{ end }}</small></p>
-        <p>{{ .Summary }} <a href="{{ .Permalink }}">Read more...</a></p>
+        <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a><br>
+        <small>On {{ .Date.Format "January 02 2006" }}{{ if .Params.author }}, by {{ .Params.author }}{{ end }}</small><br>
+        {{ .Summary }} <a href="{{ .Permalink }}">Read more...</a></p>
       </p>
       {{ end }}
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Latest Publications</h2>
-    </div>
-  </div>
-
 </div>
 
 {{ partial "footer.html" . }}

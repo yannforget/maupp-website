@@ -1,7 +1,10 @@
 ---
 title: "Juan Francisco Lopez"
 job: "Researcher"
-date: 2017-09-11T02:32:39+02:00
-draft: true
+lab: "Signal Image Centre"
+institution: "Royal Military Academy"
+webpage: "http://www.sic.rma.ac.be/staff/LOPEZHERREROS.html"
+portrait: "/images/jlopez.jpeg"
+weight: 7
 ---
 

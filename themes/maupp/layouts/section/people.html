@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container team">
+  <div class="row">
+		<div class="col-md-12">
+			<h2>Our team<hr></h2>
+		</div>
+  </div>
+
+  <div class="row">
+      {{ range .Data.Pages }}
+    <div class="col-md-4">
+      <div class="card text-center">
+        <img class="card-img-top portrait" src="{{ .Params.portrait }}">
+        <div class="card-block">
+					<h4>{{ .Title }}<br><small>{{ .Params.job }}</small></h4>
+					<p>{{ .Params.lab }} ({{ .Params.institution }})<br>
+					<a href="{{ .Params.webpage }}"><i class="fa fa-globe" aria-hidden="true"></i> Details</a></p>
+        </div>
+      </div>
+    </div>
+
+      {{ end }}
+
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+    

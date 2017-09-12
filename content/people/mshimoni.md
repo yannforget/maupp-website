@@ -1,6 +1,10 @@
 ---
-title: "Mshimoni"
-date: 2017-09-11T02:32:55+02:00
-draft: true
+title: "Michal Shimoni"
+job: "Researcher"
+lab: "Signal Image Centre"
+institution: "Royal Military Academy"
+webpage: "http://www.sic.rma.ac.be/staff/SHIMONI.html"
+portrait: "/images/mshimoni.jpeg"
+weight: 5
 ---
 

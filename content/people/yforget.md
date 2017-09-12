@@ -1,6 +1,10 @@
 ---
-title: "Yforget"
-date: 2017-09-11T02:33:17+02:00
-draft: true
+title: "Yann Forget"
+job: "PhD student"
+lab: "Spatial Epidemiology Lab"
+institution: "Université Libre de Bruxelles"
+webpage: "http://spell.ulb.be/person/yann-forget/"
+portrait: "/images/yforget.png"
+weight: 11
 ---
 
