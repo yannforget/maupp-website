@@ -12,44 +12,52 @@ theme = "maupp"
     weight = 1
     identifier = "project"
     url = "/page/project/"
+
 [[menu.main]]
     name = "News"
     weight = 2
     identifier = "news"
     url = "/news/"
+
 [[menu.main]]
     name = "Partners"
     weight = 3
     identifier = "partners"
     url = "/partner/"
+
 [[menu.main]]
     name = "Team"
     weight = 4
     identifier = "team"
     url = "/people/"
+
 [[menu.main]]
     name = "Publications"
     weight = 5
     identifier = "publications"
     url = "/page/publications"
+
 [[menu.main]]
 		name = "Summary"
 		weight = 1
 		identifier = "summary"
 		parent = "project"
 		url = "/page/summary"
+
 [[menu.main]]
 		name = "Research topic"
 		weight = 2
 		identifier = "research-topic"
 		parent = "project"
 		url = "/page/research-topic"
+
 [[menu.main]]
 		name = "Objectives"
 		weight = 3
 		identifier = "objectives"
 		parent = "project"
 		url = "/page/objectives"
+
 [[menu.main]]
 		name = "Methodology"
 		weight = 4
