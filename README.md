@@ -7,7 +7,7 @@ http://maupp.ulb.ac.be
 1. Install [Hugo](https://gohugo.io/getting-started/installing/)
 2. Clone the repository: `git clone https://github.com/yannforget/maupp-website`
 3. Live preview of the changes: `hugo serve`
-4. Edit content with a text editor, or crate a pre-filled file content with: `hugo new <content-type>`
+4. Edit content with a text editor, or create a pre-filled file content with: `hugo new <content-type>`
 5. Close the live preview: `Ctrl+C`
 6. Commit: `git add <files>`, `git commit -m "<message>"`
 7. Push: `git push origin master`
