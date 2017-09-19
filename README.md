@@ -12,6 +12,10 @@ http://maupp.ulb.ac.be
 6. Commit: `git add <files>`, `git commit -m "<message>"`
 7. Push: `git push origin master`
 
+## Media
+
+Images can be added in the [/static/images/](/static/images/) folder, and can be accessed in markdown: `![My image](/images/my_image.png)`.
+
 ## Content type
 
 * `page`: basic web page.
