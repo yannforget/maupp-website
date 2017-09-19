@@ -1,6 +1,6 @@
 ---
 title: "Eléonore Wolff"
-job: "Senior Researcher"
+job: "Professor"
 lab: "IGEAT Anageo"
 institution: "Université Libre de Bruxelles"
 webpage: "http://igeat.ulb.ac.be/fr/equipe/details/person/eleonore-wolff/"
