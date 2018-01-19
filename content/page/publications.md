@@ -7,6 +7,14 @@ date: 2017-09-11T20:46:34+02:00
 
 ---
 
+[Toward an operational framework for fine-scale urban land-cover mapping in Wallonia using submeter remote sensing and ancillary vector data](https://doi.org/10.1117/1.JRS.11.036011)  
+Benjamin Beaumont, Taïs Grippa, Moritz Lennert, Sabine G. Vanhuysse, Nathalie R. Stephenne and Eléonore Wolff  
+In *Journal of Applied Remote Sensing*, volume 11, issue 3, 2017.
+
+[Sub-national mapping of population pyramids and dependency ratios in Africa and Asia](http://dx.doi.org/10.1038/sdata.2017.89)  
+Carla Pezzulo, Graeme M. Hornby, Alessandro Sorichetta, Andrea E. Gaughan, Catherine Linard, Tomas J. Bird, David Kerr, Christopher T. Lloyd and Andrew J. Tatem  
+In *Nature Scientific Data*, 2017.
+
 [An Open-Source Semi-Automated Processing Chain for Urban Object-Based Classification](http://dx.doi.org/10.3390/rs9040358)  
 Taïs Grippa, Moritz Lennert, Benjamin Beaumont, Sabine Vanhuysse, Nathalie Stephenne and Eléonore Wolff  
 In *Remote Sensing*, volume 9, 2017.
@@ -14,6 +22,10 @@ In *Remote Sensing*, volume 9, 2017.
 [Modelling changing population distributions: an example of the Kenyan Coast, 1979-2009](http://dx.doi.org/10.1080/17538947.2016.1275829)  
 Catherine Linard, Caroline W. Kabaria, Marius Gilbert, Andrew J. Tatem, Andrea E. Gaughan, Forrest R. Stevens, Alessandro Sorichetta, Abdisalan M. Noor and Robert W. Snow  
 In *International Journal of Digital Earth*, volume 10, 2017.
+
+[Mapping intra-urban malaria risk using high resolution satellite imagery: a case study of Dar es Salaam](https://doi.org/10.1186/s12942-016-0051-y)  
+Caroline W. Kabaria, Fabrizio Molteni, Renata Mandike, Frank Chacky, Abdisalan M. Noor, Robert W. Snow and Catherine Linard  
+In *International Journal of Health Geographics*, volume 15, 2016.
 
 [Digital terrain models derived from digital surface model uniform regions in urban areas](http://dx.doi.org/10.1080/01431161.2016.1182666)  
 Charles Beumier and Mahamadou Idrissa  
@@ -23,9 +35,13 @@ In *International Journal of Remote Sensing*, volume 37, 2016.
 Catherine Linard, Andrew J Tatem and Marius Gilbert  
 In *Applied geography (Sevenoaks, England)*, volume 44, 2013.
 
-## Conferences
+## Conference papers
 
 ---
+
+[SPUSPO: Spatially partitioned unsupervised segmentation parameter optimization for efficiently segmenting large heterogeneous areas](http://difusion.ulb.ac.be/vufind/Record/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/262047/Details)  
+Stefanos Georganos, Taïs Grippa, Moritz Lennert, Sabine Vanhuysse and Eléonore Wolff  
+In *Big Data from Space*, Toulouse, 2017.
 
 [A local segmentation parameter optimization approach for mapping heterogeneous urban environments using VHR imagery](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10431/0000/A-local-segmentation-parameter-optimization-approach-for-mapping--heterogeneous/10.1117/12.2278422.short?SSO=1)  
 Taïs Grippa, Stefanos Georganos, Moritz Lennert, Sabine Vanhuysse and Eléonore Wolff  
