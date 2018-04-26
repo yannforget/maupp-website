@@ -1,4 +1,9 @@
+[![Build Status](https://travis-ci.org/yannforget/maupp-website.svg?branch=master)](https://travis-ci.org/yannforget/maupp-website)
+
 # MAUPP Website
+
+* Production: http://maupp.ulb.ac.be
+* Testing: https://yannforget.github.io/maupp-website
 
 http://maupp.ulb.ac.be
 
