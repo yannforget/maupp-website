@@ -5,8 +5,6 @@
 * Production: http://maupp.ulb.ac.be
 * Testing: https://yannforget.github.io/maupp-website
 
-http://maupp.ulb.ac.be
-
 ## Updating content
 
 1. Install [Hugo](https://gohugo.io/getting-started/installing/)
