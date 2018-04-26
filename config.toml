@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "MAUPP"
 theme = "maupp"
 
+RelativeURLs=true
+CanonifyURLs=true
+
 [params]
     acronym = "MAUPP"
     fullname = "Modeling and forecasting African Urban Population Patterns"
