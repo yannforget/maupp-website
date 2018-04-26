@@ -101,7 +101,6 @@ hr {
 /* Homepage */
 
 .header-image {
-    background-image: url('/images/ouaga_swv.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
