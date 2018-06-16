@@ -1,0 +1,36 @@
+---
+title: "Built-up Classification using Landsat and OSM"
+js: ["popper.min", "leaflet", "leaflet-providers", "forget2018"]
+css: ["leaflet", "forget2018"]
+---
+
+<h2>Built-up Classification using Landsat and OSM</h2>
+
+<hr>
+
+<p>Y. Forget, C. Linard and M. Gilbert. <i>"Supervised Classification of Built-up Areas in Sub-Saharan African Cities using Landsat Imagery and OpenStreetMap"</i>, 2018 <a href="https://github.com/yannforget/builtup-classification-osm">[Code]</a>.</p>
+
+<div class="row" id="cities">
+
+    <div class="col-md-12 text-center">
+
+        <button type="button" , class="btn" , onclick='displayMap("antananarivo")'>Antananarivo</button>
+        <button type="button" , class="btn" , onclick='displayMap("chimoio")'>Chimoio</button>
+        <button type="button" , class="btn" , onclick='displayMap("dakar")'>Dakar</button>
+        <button type="button" , class="btn" , onclick='displayMap("gao")'>Gao</button>
+        <button type="button" , class="btn" , onclick='displayMap("johannesburg")'>Johannesburg</button>
+        <button type="button" , class="btn" , onclick='displayMap("kampala")'>Kampala</button>
+        <button type="button" , class="btn" , onclick='displayMap("katsina")'>Katsina</button>
+        <button type="button" , class="btn" , onclick='displayMap("nairobi")'>Nairobi</button>
+        <button type="button" , class="btn" , onclick='displayMap("saint_louis")'>Saint-Louis</button>
+        <button type="button" , class="btn" , onclick='displayMap("windhoek")'>Windhoek</button>
+
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div id="map"></div>
+
+</div>
