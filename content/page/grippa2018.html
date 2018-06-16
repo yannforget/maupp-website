@@ -1,0 +1,293 @@
+---
+title: "Land Cover and Land Use Classification"
+js: ["popper.min", "leaflet", "Leaflet.VectorGrid.bundled.min", "leaflet-providers", "grippa2018"]
+css: ["leaflet", "grippa2018"]
+---
+
+<h2>Land Use and Land Cover Classification</h2>
+
+<p>This interactive map presents the results obtained in...</p>
+
+<div class="row switch">
+    <div class="col-md-12 text-center">
+        <button type="button" class="btn" onclick="displayMap('ouagadougou')">Ouagadougou</button>
+        <button type="button" class="btn" onclick="displayMap('dakar')">Dakar</button>
+    </div>
+</div>
+
+<div class="row">
+
+    <div id="map"></div>
+
+</div>
+
+<div class="row legend" id="legend-ouagadougou">
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land cover</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,26,28)" />
+                    </svg> High buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(255,132,56)" />
+                    </svg> Medium buildings
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(29,220,0)" />
+                    </svg> Low vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(0,128,0)" />
+                    </svg> Trees
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(211,217,173)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(182,182,182)" />
+                    </svg> Asphalt surfaces
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(30,30,192)" />
+                    </svg> Water bodies
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(94,221,227)" />
+                    </svg> Swimming pools
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land use</th>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(229,107,54)" />
+                    </svg> Planned residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,23,50)" />
+                    </svg> Unplanned residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#ffb83d" />
+                    </svg> Planned residential (low density)
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#f09da8" />
+                    </svg> Unplanned residential (low density)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(246,237,197)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(52,164,0)" />
+                    </svg> Vegetation
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(207,67,205)" />
+                    </svg> Non-residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#b0b0b0" />
+                    </svg> Uncertain
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<div class="row legend" id="legend-dakar">
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land cover</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(191,40,186)" />
+                    </svg> High buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,26,28)" />
+                    </svg> Medium buildings
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(255,132,56)" />
+                    </svg> Low buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(182,182,182)" />
+                    </svg> Artificial ground surfaces
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(29,220,0)" />
+                    </svg> Low vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(0,128,0)" />
+                    </svg> Trees
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(30,30,192)" />
+                    </svg> Inland waters
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(94,221,227)" />
+                    </svg> Swimming pools
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(211,217,173)" />
+                    </svg> Bare soils
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land use</th>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(229,107,54)" />
+                    </svg> Planned residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,23,50)" />
+                    </svg> Deprived residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#ffb83d" />
+                    </svg> Planned residential (low density)
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#f09da8" />
+                    </svg> Deprived residential (low density)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(246,237,197)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(52,164,0)" />
+                    </svg> Natural vegetation
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#60da69" />
+                    </svg> Agricultural vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(207,67,205)" />
+                    </svg> Non-residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#b0b0b0" />
+                    </svg> Uncertain
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
