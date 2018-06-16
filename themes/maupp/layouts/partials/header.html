@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/maupp.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
+    
+    {{- range .Params.js }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}css/{{ . }}.css">
+    {{- end }}
+
     <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}images/favicon.png" />
   </head>
   <body>

@@ -7,9 +7,13 @@
       </div>
     </footer>
 
-    <script src="{{ .Site.BaseURL }}js/jquery-3.2.1.min.js"></script>
-    <script src="{{ .Site.BaseURL }}js/popper.js"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/popper.min.js"></script>
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+
+    {{- range .Params.js }}
+    <script src="{{ $.Site.BaseURL }}js/{{ . }}.js"></script>
+    {{- end }}
 
   </body>
 </html>
