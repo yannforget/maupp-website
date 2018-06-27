@@ -36,3 +36,7 @@
 .logos img:hover {
     filter: brightness(125%);
 }
+
+.references h4 {
+    margin-bottom: 15px;
+}
