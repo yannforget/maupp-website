@@ -21,3 +21,18 @@
 .switch {
     margin-top: 20px;
 }
+
+.logos a:hover {
+    border-bottom: none;
+}
+
+.logos img {
+    min-height: 10px;
+    max-height: 70px;
+    width: auto;
+    margin: 10px;
+}
+
+.logos img:hover {
+    filter: brightness(125%);
+}
