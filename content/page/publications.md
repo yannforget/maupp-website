@@ -7,6 +7,10 @@ date: 2017-09-11T20:46:34+02:00
 
 ---
 
+[Supervised Classification of Built-Up Areas in Sub-Saharan African Cities Using Landsat Imagery and OpenStreetMap](https://doi.org/10.3390/rs10071145) 
+Yann Forget, Catherine Linard and Marius Gilbert 
+In *Remote Sensing*, volume 10, issue 7, 2018.
+
 [Toward an operational framework for fine-scale urban land-cover mapping in Wallonia using submeter remote sensing and ancillary vector data](https://doi.org/10.1117/1.JRS.11.036011)  
 Benjamin Beaumont, Taïs Grippa, Moritz Lennert, Sabine G. Vanhuysse, Nathalie R. Stephenne and Eléonore Wolff  
 In *Journal of Applied Remote Sensing*, volume 11, issue 3, 2017.
