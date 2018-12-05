@@ -26,14 +26,14 @@ A conference and a workshop will be organized in Nairobi, Kenya, both to present
       <a href="page/maupp-conference">
       <strong>Advanced Mapping of Urban Population Patterns<br>in Sub-Saharan Africa</strong><br>
       </a>
-      <small>30 January 2019, Nairobi, Kenya</small>
+      <small>31 January 2019, Nairobi, Kenya</small>
     </td>
     <td style="width: 50%; padding: 2em;">
       Workshop (free registration)<br>
       <a href="page/maupp-workshop">
       <strong>Population Maps for Urban Planning and<br>Health Management</strong><br>
       </a>
-      <small>31 January 2019, Nairobi, Kenya</small>
+      <small>30 January 2019, Nairobi, Kenya</small>
     </td>
   </tr>
 </table>
