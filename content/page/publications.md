@@ -7,6 +7,22 @@ date: 2017-09-11T20:46:34+02:00
 
 ---
 
+[Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics](https://doi.org/10.3390/ijgi7070246)  
+Taïs Grippa, Stefanos Georganos, Soukaina Zarougui, Pauline Bognounou, Eric Diboulo, Yann Forget, Moritz Lennert, Sabine Vanhuysse, Nicholus Mboga, and Eléonore Wolff  
+In *ISPRS International Journal of Geo-Information*, volume 7, issue 7, 2018.  
+
+[Scale Matters: Spatially Partitioned Unsupervised Segmentation Parameter Optimization for Large and Heterogeneous Satellite Images](https://doi.org/10.3390/rs10091440)  
+Stefanos Georganos, Tais Grippa, Moritz Lennert, Sabine Vanhuysse, Brian Johnson, and Eléonore Wolff  
+In *Remote Sensing*, volume 10, issue 9, 2018.  
+
+[Very High Resolution Object-Based Land Use–Land Cover Urban Classification Using Extreme Gradient Boosting](https://doi.org/10.1109/LGRS.2018.2803259)  
+Stefanos Georganos, Tais Grippa, Sabine Vanhuysse, Moritz Lennert, Michal Shimoni, and Eleonore Wolff  
+In *IEEE Geoscience and Remote Sensing Letters*, volume 15, issue 4, 2018.  
+
+[Normalization in Unsupervised Segmentation Parameter Optimization: A Solution Based on Local Regression Trend Analysis](https://doi.org/10.3390/rs10020222)  
+Stefanos Georganos, Moritz Lennert, Tais Grippa, Sabine Vanhuysse, Brian Johnson, and Eléonore Wolff  
+In *Remote Sensing*, volume 10, issue 2, 2018.  
+
 [Supervised Classification of Built-Up Areas in Sub-Saharan African Cities Using Landsat Imagery and OpenStreetMap](https://doi.org/10.3390/rs10071145)  
 Yann Forget, Catherine Linard and Marius Gilbert  
 In *Remote Sensing*, volume 10, issue 7, 2018.  
