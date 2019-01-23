@@ -41,6 +41,18 @@ CanonifyURLs=true
     url = "/page/publications"
 
 [[menu.main]]
+    name = "Software"
+    weight = 6
+    identifier = "software"
+    url = "/page/software"
+
+[[menu.main]]
+    name = "Data"
+    weight = 7
+    identifier = "data"
+    url = "/page/wp1results"
+
+[[menu.main]]
     name = "Summary"
     weight = 1
     identifier = "summary"

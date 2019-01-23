@@ -1,0 +1,115 @@
+---
+js: ["popper.min", "leaflet", "leaflet-providers", "leaflet.groupedlayercontrol.min", "Leaflet.fullscreen.min", "wp1webmap"]
+css: ["leaflet", "leaflet.fullscreen", "wp1webmap"]
+---
+
+<h2>Urban Expansion in Sub-Saharan Africa<br></h2>
+
+<hr>
+
+<div class="col">
+    <div class="row">
+        <div class="col">
+
+            <div class="dropdown show float-left select-city">
+                <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Case Study</a>
+                <div class="dropdown-menu multi-columns" aria-labelledby="dropdownMenuLink">
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="dropdown-header">Burkina Faso</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ouagadougou')">Ouagadougou</a>
+                            <h6 class="dropdown-header">Cote d'Ivoire</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('bouake')">Bouake</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('san_pedro')">San Pedro</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('yamoussoukro')">Yamoussoukro</a>
+                            <h6 class="dropdown-header">D.R. Congo</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('bukavu')">Bukavu</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kinshasa')">Kinshasa</a>
+                            <h6 class="dropdown-header">Ethiopia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('mekele')">Mekele</a>                      
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Gabon</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('libreville')">Libreville</a>
+                            <h6 class="dropdown-header">Ghana</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('obuasi')">Obuasi</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('tamale')">Tamale</a>
+                            <h6 class="dropdown-header">Guinea</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nzerekore')">Nzerekore</a>
+                            <h6 class="dropdown-header">Kenya</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kisumu')">Kisumu</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nairobi')">Nairobi</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Liberia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('monrovia')">Monrovia</a>
+                            <h6 class="dropdown-header">Madagascar</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('antananarivo')">Antananarivo</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('toamasina')">Toamasina</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('tulear')">Tulear</a>
+                            <h6 class="dropdown-header">Senegal</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('dakar')">Dakar</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kaolack')">Kaolack</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('saint_louis')">Saint-Louis</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ziguinchor')">Ziguinchor</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Mali</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('gao')">Gao</a>
+                            <h6 class="dropdown-header">Nigeria</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ikirun')">Ikirun</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('katsina')">Katsina</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('okene')">Okene</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('onitsha')">Onitsha</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('owo')">Owo</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('shaki')">Shaki</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('umuahia')">Umuahia</a>
+                            <h6 class="dropdown-header">Mozambique</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('chimoio')">Chimoio</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Namibia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('windhoek')">Windhoek</a>
+                            <h6 class="dropdown-header">Sierra Leone</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('freetown')">Freetown</a>
+                            <h6 class="dropdown-header">South Africa</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('johannesburg')">Johannesburg</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kayamandi')">Kayamandi</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nelspruit')">Nelspruit</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('pietermaritzburg')">Pietermaritzburg</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('pietersburg')">Pietersburg</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Tanzania</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('dodoma')">Dodoma</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('iringa')">Iringa</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('mbeya')">Mbeya</a>
+                            <h6 class="dropdown-header">Uganda</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kampala')">Kampala</a>
+                            <h6 class="dropdown-header">Zambia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kabwe')">Kabwe</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('lusaka')">Lusaka</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ndola')">Ndola</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="float-right select-map-type">
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupAreas')">Built-Up Areas</a>
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupHistory')">Built-Up
+                    Areas History</a>
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupExpansion')">Urban
+                    Expansion</a>
+                    <a class="btn btn-light" href="http://data.yannforget.me/maupp_v2.6/final/" role="button">Download</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row wp1-webmap">
+        <div id="map"></div>
+    </div>
+
+</div>
