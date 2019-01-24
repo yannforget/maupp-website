@@ -7,6 +7,10 @@ date: 2017-09-11T20:46:34+02:00
 
 ---
 
+[Improving Urban Population Distribution Models with Very-High Resolution Satellite Information](https://doi.org/10.3390/data4010013)  
+Taïs Grippa, Catherine Linard, Moritz Lennert, Stefanos Georganos, Nicholus Mboga, Sabine Vanhuysse, Assane Gadiaga, and Eléonore Wolff  
+In *Data*, volume 4, issue 1, 2018.
+
 [Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics](https://doi.org/10.3390/ijgi7070246)  
 Taïs Grippa, Stefanos Georganos, Soukaina Zarougui, Pauline Bognounou, Eric Diboulo, Yann Forget, Moritz Lennert, Sabine Vanhuysse, Nicholus Mboga, and Eléonore Wolff  
 In *ISPRS International Journal of Geo-Information*, volume 7, issue 7, 2018.  

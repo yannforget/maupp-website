@@ -33,3 +33,9 @@ Yann Forget, Catherine Linard, and Marius Gilbert
 
 [Complementarity Between Sentinel-1 and Landsat 8 Imagery for Built-Up Mapping in Sub-Saharan Africa](https://github.com/yannforget/landsat-sentinel-fusion)  
 Yann Forget, Michal Shimoni, Marius Gilbert, and Catherine Linard
+
+[Computing Landscape Metrics in OSM Street Blocks](https://github.com/tgrippa/Street_blocks_features_computation)  
+Taïs Grippa
+
+[Extraction of Street Blocks from OSM](https://github.com/ANAGEO/OSM_Streetblocks_extraction)  
+Taïs Grippa
