@@ -53,6 +53,27 @@ CanonifyURLs=true
     url = "/page/wp1results"
 
 [[menu.main]]
+    name = "Urban Expansion Sub-Saharan Africa"
+    weight = 1
+    identifier = "wp1results"
+    parent = "data"
+    url = "/page/wp1results"
+
+[[menu.main]]
+    name = "VHR Land Use Map of Ouagadougou and Dakar"
+    weight = 2
+    identifier = "grippa2018"
+    parent = "data"
+    url = "/page/grippa2018"
+
+[[menu.main]]
+    name = "Mapping Built-Up Areas with OSM"
+    weight = 3
+    identifier = "forget2018"
+    parent = "data"
+    url = "/page/forget2018"
+
+[[menu.main]]
     name = "Summary"
     weight = 1
     identifier = "summary"
