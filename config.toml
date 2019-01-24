@@ -53,7 +53,7 @@ CanonifyURLs=true
     url = "/page/wp1results"
 
 [[menu.main]]
-    name = "Urban Expansion Sub-Saharan Africa"
+    name = "Urban Expansion in Sub-Saharan Africa"
     weight = 1
     identifier = "wp1results"
     parent = "data"
