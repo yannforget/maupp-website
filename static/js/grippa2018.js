@@ -70,7 +70,7 @@ function displayMap(city) {
     ]);
 
     // Remote land cover TMS layer
-    var landcover = L.tileLayer('http://data.yannforget.me/misc/tais/tiles/' + city + '_landcover/{z}/{x}/{y}.png', {
+    var landcover = L.tileLayer('https://data.yannforget.me/misc/tais/tiles/' + city + '_landcover/{z}/{x}/{y}.png', {
         tms: true,
         opacity: 1.0
     }).addTo(map);
