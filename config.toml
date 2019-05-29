@@ -74,6 +74,13 @@ CanonifyURLs=true
     url = "/page/forget2018"
 
 [[menu.main]]
+    name = "Population Maps"
+    weight = 4
+    identifier = "population-maps"
+    parent = "data"
+    url = "/page/population-maps"
+
+[[menu.main]]
     name = "Summary"
     weight = 1
     identifier = "summary"
