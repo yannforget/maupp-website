@@ -5,9 +5,7 @@
   <div class="row">
     <div class="col-md-12">
 
-      <h3>{{ .Title }}</h3>
-
-      <p><em>Published on {{ .Date.Format "January 02, 2006" }}, by {{ .Params.author }}</em></p>
+      <h2>{{ .Title }}</h2>
 
       {{ if gt .FuzzyWordCount 1000}}
       <div class="well toc">
@@ -16,6 +14,8 @@
       {{ end }}
 
       {{ .Content }}
+
+      <p style="text-align:right"><em><small>Published on {{ .Date.Format "January 02, 2006" }}, by {{ .Params.author }}</small></em></p>
 
     </div>
   </div>
