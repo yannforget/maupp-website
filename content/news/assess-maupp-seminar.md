@@ -47,6 +47,8 @@ informations désagrégées et contextualisées sur les décès et leurs princip
 de densité, d’utilisation du sol et de qualité de l’habitat, et d’autre part la pertinence
 d’intégrer les autopsies verbales dans un système exhaustif et continu d’état civil.
 
+Un [workshop](/news/assess-maupp-workshop) sera également organisé la veille.
+
 [Download Flyer](/flyers/assess-maupp-seminar.pdf)
 
 #### Programme

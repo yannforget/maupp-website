@@ -50,6 +50,8 @@ catastrophe naturelle, etc.). L'atelier est destiné aux décideurs et aux insti
 recherche, y compris les instituts publics et ministères, les organisations
 internationales, les agences de développement, les ONG, etc.
 
+Un [séminaire](/news/assess-maupp-seminar) sera également organisé le lendemain.
+
 [Download Flyer](/flyers/assess-maupp-workshop.pdf)
 
 #### Programme
