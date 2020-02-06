@@ -9,7 +9,7 @@ function displayMap(city) {
         minZoom: 10
     });
 
-    var baseUrl = "https://data.yannforget.me/maupp_v2.6/tiles/";
+    var baseUrl = "https://maupp.yannforget.be/tiles/yforget/";
 
     $.getJSON(baseUrl + city + '/aoi.geojson', {}, function (feature) {
 
