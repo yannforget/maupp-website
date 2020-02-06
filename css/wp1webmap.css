@@ -1,0 +1,67 @@
+#map {
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+    border: 1px solid rgba(191, 42, 42, 0.25);
+}
+
+#cities button {
+    margin: 5px;
+}
+
+.multi-columns {
+    min-width: 800px;
+    z-index: 9999;
+}
+
+.multi-columns a {
+    padding: 5px;
+}
+
+.multi-columns a :hover {
+    padding: 5px;
+    border-left: 1px solid black;
+}
+
+.multi-columns h6 {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.select-map-type btn {
+    margin-left: 15px;
+}
+
+.wp1-webmap .legend {
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.wp1-webmap .legend i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.90;
+}
+
+.wp1-webmap .leaflet-control-layers-group-label {
+    margin-top: 15px;
+}
+
+.wp1-webmap .leaflet-control-layers-group-name {
+    font-weight: 900;
+}
+
+.wp1-webmap .download {
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}

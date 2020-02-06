@@ -1,0 +1,196 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+		position: relative;
+		min-height: 100%;
+}
+
+
+body {
+		font-family: 'Raleway', sans-serif;
+		margin-bottom: 150px;
+}
+
+/*
+h1, h2, h3, h4 {
+		font-family: 'Lato', sans-serif;
+}
+*/
+
+h2 {
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		margin-top: 30px;
+		text-align: center;
+}
+
+h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+
+h4 {
+		margin-top: 30px;
+		margin-bottom: 20px;
+}
+
+a {
+		color: #BF2A2A;
+}
+
+a:hover {
+		color: #BF2A2A;
+		text-decoration: none;
+		border-bottom: 1px solid #BF2A2A;
+}
+
+hr {
+		margin-top: 15px;
+		margin-bottom: 40px;
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(191, 42, 42, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Navbar */
+
+.navbar {
+		background-color: #BF2A2A;
+}
+
+.navbar .nav-link {
+	color: rgba(255, 255, 255, .85) !important;
+}
+
+.navbar .nav-link:hover {
+	color: rgba(255, 255, 255) !important;
+}
+
+.navbar .logo {
+		height: 30px;
+		width: auto;
+		margin-right: 0.5em;
+}
+
+.navbar a:hover {
+		text-decoration: none;
+		border-bottom: none;
+}
+
+/* Footer */
+
+.footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+		line-height: 100px;
+		background-color: #BF2A2A;
+		color: rgba(255,255,255,.5);
+}
+
+.footer p {
+		margin-bottom: 0px;
+}
+
+.footer .logo {
+		height: 70px;
+		width: auto;
+		margin-right: 20px;
+}
+
+.footer a {
+		color: rgba(255,255,255,.5);
+}
+
+.footer a:hover {
+		color: rgba(255,255,255,0.85);
+}
+
+/* Homepage */
+
+.header-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 5em;
+		border-bottom: 1px solid black;
+		margin-bottom: 20px;
+}
+
+.header-image {
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+/* Team */
+
+.team .portrait {
+    border-radius: 5%;
+		filter: grayscale(100%);
+}
+
+.team .portrait:hover {
+		filter: grayscale(25%);
+}
+
+.team .card {
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+		border: none;
+}
+
+/* Partners */
+
+.vertical-align {
+		display: flex;
+		flex-direction: row;
+		align-items:center;
+		justify-content: center;
+}
+
+.partner {
+		border: 1px solid rgba(191, 42, 42, 0.5);
+		border-radius: 5px;
+		padding: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+.partner:hover {
+		background-color: rgba(191, 42, 42, 0.05);
+}
+
+.partner img {
+		max-height: 200px;
+		max-width: 200px;
+}
+
+/* News */
+
+.news img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.news-list h4 {
+	margin-bottom: 0px;
+}
+
+/* Single Pages */
+
+.singlepage img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}

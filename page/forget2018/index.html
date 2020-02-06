@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>Built-up Classification using Landsat and OSM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/maupp.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/leaflet.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/forget2018.css">
+
+    <link rel="icon" type="image/png" href="https://yannforget.github.io/maupp-website/images/favicon.png" />
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+
+  <div class="container">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="https://yannforget.github.io/maupp-website/"><img class="logo" src="../../images/maupp_white.png" alt="Logo"> MAUPP</a>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav">
+        
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Project</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/summary">Summary</a>
+							
+							<a class="dropdown-item" href="../../page/research-topic">Research topic</a>
+							
+							<a class="dropdown-item" href="../../page/objectives">Objectives</a>
+							
+							<a class="dropdown-item" href="../../page/methodology">Methodology</a>
+							
+						</div>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../news/">News</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../partner/">Partners</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../people/">Team</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/publications">Publications</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/software">Software</a>
+					</li>
+					
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Data</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/wp1results">Urban Expansion in Sub-Saharan Africa</a>
+							
+							<a class="dropdown-item" href="../../page/grippa2018">VHR Land Use Map of Ouagadougou and Dakar</a>
+							
+							<a class="dropdown-item" href="../../page/forget2018">Mapping Built-Up Areas with OSM</a>
+							
+							<a class="dropdown-item" href="../../page/population-maps">Population Maps</a>
+							
+						</div>
+					</li>
+					
+        
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+
+
+<div class="container singlepage">
+  <h2>Built-up Classification using Landsat and OSM</h2>
+
+<hr>
+
+<p>
+    <a href="https://www.mdpi.com/2072-4292/10/7/1145">Supervised Classification of Built-up Areas in Sub-Saharan African Cities using Landsat Imagery and OpenStreetMap</a><br>
+    Yann Forget, Catherine Linard and Marius Gilbert<br>
+    In <i>Remote Sensing</i>, volume 10, issue 7, 2018.<br>
+    <a href="https://zenodo.org/record/1291961">Data</a>
+</p>
+
+<div class="row" id="cities">
+
+    <div class="col-md-12 text-center">
+
+        <button type="button" , class="btn" , onclick='displayMap("antananarivo")'>Antananarivo</button>
+        <button type="button" , class="btn" , onclick='displayMap("chimoio")'>Chimoio</button>
+        <button type="button" , class="btn" , onclick='displayMap("dakar")'>Dakar</button>
+        <button type="button" , class="btn" , onclick='displayMap("gao")'>Gao</button>
+        <button type="button" , class="btn" , onclick='displayMap("johannesburg")'>Johannesburg</button>
+        <button type="button" , class="btn" , onclick='displayMap("kampala")'>Kampala</button>
+        <button type="button" , class="btn" , onclick='displayMap("katsina")'>Katsina</button>
+        <button type="button" , class="btn" , onclick='displayMap("nairobi")'>Nairobi</button>
+        <button type="button" , class="btn" , onclick='displayMap("saint_louis")'>Saint-Louis</button>
+        <button type="button" , class="btn" , onclick='displayMap("windhoek")'>Windhoek</button>
+
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div id="map"></div>
+
+</div>
+
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row vertical-align">
+          <a href="http://www.belspo.be"><img src="https://yannforget.github.io/maupp-website/images/belspo.jpg" class="logo img-responsive pull-left"></a>
+           <p>Research funded by the Belgian Science Policy, research project <a href="http://www.belspo.be/belspo/fedra/proj.asp?l=&COD=SR%2F00%2F304">SR/00/304</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://yannforget.github.io/maupp-website/js/jquery.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/bootstrap.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet-providers.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/forget2018.js"></script>
+
+  </body>
+</html>
+

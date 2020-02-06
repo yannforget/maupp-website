@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on MAUPP</title>
+    <link>https://yannforget.github.io/maupp-website/page/</link>
+    <description>Recent content in Pages on MAUPP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yannforget.github.io/maupp-website/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cities</title>
+      <link>https://yannforget.github.io/maupp-website/page/cities/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/cities/</guid>
+      <description>Case studies    City Country     Antananarivo Madagascar   Bouake Côte d&amp;rsquo;Ivoire   Brazzaville Congo   Bukavu D.R. Congo   Chimoio Mozambique   Dakar Senegal   Dire Dawa Ethiopia   Dodoma Tanzania   Freetown Sierra Leone   Gao Mali   Ikirun Nigeria   Iringa Tanzania   Johannesburg South Africa   Kabwe Zambia   Kampala Uganda   Kaolack Senegal   Katsina Nigeria   Kayamnandi South Africa   Kenama Sierra Leone   Kinshasa D.</description>
+    </item>
+    
+    <item>
+      <title>Methodology</title>
+      <link>https://yannforget.github.io/maupp-website/page/methodology/</link>
+      <pubDate>Tue, 12 Sep 2017 03:51:34 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/methodology/</guid>
+      <description>MAUPP Methodology The MAUPP project will work at two different spatial resolutions: HR (~30 m) and VHR (&amp;lt; 5m). The Morphological Urban Area (MUA) and urban land uses will be delineated, mapped and predicted mainly using SAR and optical remote sensing as input data. In addition, spatially-detailed census data, historical maps and existing population distribution datasets will be used for modelling and predicting urban expansion and human population densities across Africa.</description>
+    </item>
+    
+    <item>
+      <title>Objectives</title>
+      <link>https://yannforget.github.io/maupp-website/page/objectives/</link>
+      <pubDate>Tue, 12 Sep 2017 03:51:24 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/objectives/</guid>
+      <description>MAUPP objectives We have highlighted in the review of the state of knowledge that there are two limitations in the existing population distribution datasets that are related to urban areas: (i) the lack of urban expansion forecasts and (ii) the homogenous distribution of people within cities. Both limitations can be significantly improved with advanced remote sensing data and techniques. The general objective of the MAUPP project is therefore to improve our spatial understanding and forecast of urbanization and urban population distribution in Africa through the use of remote sensing and spatial modelling.</description>
+    </item>
+    
+    <item>
+      <title>Research topic</title>
+      <link>https://yannforget.github.io/maupp-website/page/research-topic/</link>
+      <pubDate>Tue, 12 Sep 2017 03:51:17 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/research-topic/</guid>
+      <description>Research topic According to United Nations forecasts, the population of Africa will double over the next 40 years:from about 1 billion in 2010, Africa is expected to reach 2 billion inhabitants in 2045 (1). Much ofthis anticipated population growth is expected to be concentrated in urban areas, with almost 720million more people living in cities over the same period (2, 3). Such an increase in urbanpopulation combined with an overall decrease in average urban population density will lead tohigher urban expansion rates in Africa than other regions of the world.</description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://yannforget.github.io/maupp-website/page/summary/</link>
+      <pubDate>Tue, 12 Sep 2017 03:50:48 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/summary/</guid>
+      <description>Project summary The population of Africa is predicted to double over the next 40 years, driving exceptionally high urban expansion rates. Urbanization has profound social, environmental and epidemiological implications and makes spatial and quantitative estimations of urban change, population density and socio-economic characteristics valuable information for epidemiology and vulnerability assessment. The performance of urban expansion models largely depends on the quality and type of data available, which have so far been limited, and reduced the confidence and the applications of models for Africa.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://yannforget.github.io/maupp-website/page/publications/</link>
+      <pubDate>Mon, 11 Sep 2017 20:46:34 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/publications/</guid>
+      <description>Journal articles Improving Urban Population Distribution Models with Very-High Resolution Satellite Information
+Taïs Grippa, Catherine Linard, Moritz Lennert, Stefanos Georganos, Nicholus Mboga, Sabine Vanhuysse, Assane Gadiaga, and Eléonore Wolff
+In Data, volume 4, issue 1, 2018.
+Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics
+Taïs Grippa, Stefanos Georganos, Soukaina Zarougui, Pauline Bognounou, Eric Diboulo, Yann Forget, Moritz Lennert, Sabine Vanhuysse, Nicholus Mboga, and Eléonore Wolff</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://yannforget.github.io/maupp-website/page/about/</link>
+      <pubDate>Sun, 10 Sep 2017 22:09:22 +0200</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/about/</guid>
+      <description>What Is MAUPP ? The MAUPP project (Modelling and forecasting African Urban Population Patterns for vulnerability and health assessments) is a four-year research project (2014-2018) funded by the STEREO-III program of the Belgian Science Policy (BELSPO).
+The main objective of MAUPP is to develop models and forecasts to improve our knowledge of sub-Saharan African urban population patterns for a wider usage of urban population distribution datasets in vulnerability and health assessments.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yannforget.github.io/maupp-website/page/wp1results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/wp1results/</guid>
+      <description>Urban Expansion in Sub-Saharan Africa
+  Case Study Burkina Faso Ouagadougou Cote d&#39;Ivoire Bouake San Pedro Yamoussoukro D.R. Congo Bukavu Kinshasa Ethiopia Mekele  Gabon Libreville Ghana Obuasi Tamale Guinea Nzerekore Kenya Kisumu Nairobi  Liberia Monrovia Madagascar Antananarivo Toamasina Tulear Senegal Dakar Kaolack Saint-Louis Ziguinchor  Mali Gao Nigeria Ikirun Katsina Okene Onitsha Owo Shaki Umuahia Mozambique Chimoio  Namibia Windhoek Sierra Leone Freetown South Africa Johannesburg Kayamandi Nelspruit Pietermaritzburg Pietersburg  Tanzania Dodoma Iringa Mbeya Uganda Kampala Zambia Kabwe Lusaka Ndola     Built-Up Areas Built-Up Areas History Urban Expansion Download      </description>
+    </item>
+    
+    <item>
+      <title>Built-up Classification using Landsat and OSM</title>
+      <link>https://yannforget.github.io/maupp-website/page/forget2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/forget2018/</guid>
+      <description>Built-up Classification using Landsat and OSM   Supervised Classification of Built-up Areas in Sub-Saharan African Cities using Landsat Imagery and OpenStreetMap
+Yann Forget, Catherine Linard and Marius Gilbert
+In Remote Sensing, volume 10, issue 7, 2018.
+Data Antananarivo Chimoio Dakar Gao Johannesburg Kampala Katsina Nairobi Saint-Louis Windhoek     </description>
+    </item>
+    
+    <item>
+      <title>Final Event</title>
+      <link>https://yannforget.github.io/maupp-website/page/final-event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/final-event/</guid>
+      <description>Final Event A conference and a workshop will be organized in Nairobi, Kenya, both to present and discuss the scientific results of the project and to demonstrate the potentialities of the developed datasets.
+ Conference (free registration)
+Advanced Mapping of Urban Population Patterns
+in Sub-Saharan Africa
+ 30 January 2019
+APHRC Campus, Kitisuru, Nairobi  Workshop (free registration)
+Population Maps for Urban Planning and
+Health Management
+ 31 January 2019</description>
+    </item>
+    
+    <item>
+      <title>Land Cover and Land Use Classification</title>
+      <link>https://yannforget.github.io/maupp-website/page/grippa2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/grippa2018/</guid>
+      <description>Land Use and Land Cover Classification              Mapping urban land use at street block level using OpenStreetMap, remote sensing data and spatial metrics   Published in ISPRS International Journal of Geo-Information   Ouagadougou Dakar       Land cover     High buildings    Medium buildings      Low vegetation    Trees      Bare soils    Asphalt surfaces      Water bodies    Swimming pools       Land use     Planned residential    Unplanned residential      Planned residential (low density)    Unplanned residential (low density)      Bare soils    Vegetation      Non-residential    Uncertain        Land cover     High buildings    Medium buildings      Low buildings    Artificial ground surfaces      Low vegetation    Trees      Inland waters    Swimming pools      Bare soils       Land use     Planned residential    Deprived residential      Planned residential (low density)    Deprived residential (low density)      Bare soils    Natural vegetation      Agricultural vegetation    Non-residential      Uncertain      Methodology  [1] Grippa, T.</description>
+    </item>
+    
+    <item>
+      <title>MAUPP Conference</title>
+      <link>https://yannforget.github.io/maupp-website/page/maupp-conference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/maupp-conference/</guid>
+      <description>Advanced Mapping of Urban Population Patterns in Sub-Saharan Africa
+30 January 2019, Nairobi, Kenya          Sub-Saharan African cities are experiencing fast urban growth associated with increasing intra-urban inequalities. A large part of urban residents are extremely vulnerable to health and disaster risks. Knowing how the population is distributed within highly heterogeneous cities is very important for health and vulnerability assessments, to help urban research and decision making.</description>
+    </item>
+    
+    <item>
+      <title>MAUPP Workshop</title>
+      <link>https://yannforget.github.io/maupp-website/page/maupp-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/maupp-workshop/</guid>
+      <description>Use of Population Maps for Urban Planning and Health Management: Practical Exercices in QGIS
+ 31 January 2019, Nairobi, Kenya           In the framework of the MAUPP research project, a large and freely-available spatial database has been built for about 50 cities in Sub-Saharan Africa and is ready to be used for health and vulnerability assessments. The database includes built-up density, land cover, land use and population density maps at different spatial resolutions.</description>
+    </item>
+    
+    <item>
+      <title>Population maps</title>
+      <link>https://yannforget.github.io/maupp-website/page/population-maps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/population-maps/</guid>
+      <description>Population maps In the context of the MAUPP project, 100 m population maps (people per pixel) have been produced for the following case studies:
+ Mbeya, 2012 Iringa, 2002 Toamasina, 2006 Kampala, 2002 Nairobi, 2009 Windhoek, 2011 Antananarivo, 2006  Please refer to the following publication for further information:
+Worldpop - Fusion of Earth and Big Data for Intraurban Population Mapping
+J. E. Steele, J. Nieves, A. J. Tatem, Y.</description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>https://yannforget.github.io/maupp-website/page/thank-you/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/thank-you/</guid>
+      <description>Thank you for your registration! Thank you for registering to the MAUPP Final Event. Your registration has been received and we will be following up with you shortly.
+Update: Please note that the maximum number of seats for both the workshop and the conference has been reached ! We will contact you in case of cancellations. Thank you for your interest !</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://yannforget.github.io/maupp-website/page/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yannforget.github.io/maupp-website/page/software/</guid>
+      <description>Open-Source Software Packages &amp;amp; Programs LandsatXplore: search &amp;amp; download Landsat scenes from EarthExplorer
+Yann Forget
+PyLandsat: search, download and preprocess Landsat imagery from Google Cloud
+Yann Forget
+ASARApi: search &amp;amp; download ERS-1, ERS-2 and Envisat products from the ESA Online Catalogue
+Yann Forget
+Scripts &amp;amp; Notebooks Open Source OBIA Processing Chain
+Taïs Grippa, Moritz Lennert, Benjamin Beaumont, Sabine Vanhuysse, Nathalie Stephenne, and Eléonore Wolff
+A Local Segmentation Parameter Optimization Approach for Mapping Heterogeneous Urban Environments Using VHR Imagery</description>
+    </item>
+    
+  </channel>
+</rss>

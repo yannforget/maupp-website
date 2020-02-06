@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title>Land Cover and Land Use Classification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/maupp.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/leaflet.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/grippa2018.css">
+
+    <link rel="icon" type="image/png" href="https://yannforget.github.io/maupp-website/images/favicon.png" />
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+
+  <div class="container">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="https://yannforget.github.io/maupp-website/"><img class="logo" src="../../images/maupp_white.png" alt="Logo"> MAUPP</a>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav">
+        
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Project</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/summary">Summary</a>
+							
+							<a class="dropdown-item" href="../../page/research-topic">Research topic</a>
+							
+							<a class="dropdown-item" href="../../page/objectives">Objectives</a>
+							
+							<a class="dropdown-item" href="../../page/methodology">Methodology</a>
+							
+						</div>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../news/">News</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../partner/">Partners</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../people/">Team</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/publications">Publications</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/software">Software</a>
+					</li>
+					
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Data</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/wp1results">Urban Expansion in Sub-Saharan Africa</a>
+							
+							<a class="dropdown-item" href="../../page/grippa2018">VHR Land Use Map of Ouagadougou and Dakar</a>
+							
+							<a class="dropdown-item" href="../../page/forget2018">Mapping Built-Up Areas with OSM</a>
+							
+							<a class="dropdown-item" href="../../page/population-maps">Population Maps</a>
+							
+						</div>
+					</li>
+					
+        
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+
+
+<div class="container singlepage">
+  <h2>Land Use and Land Cover Classification</h2>
+
+<hr>
+
+<div class="text-center logos">
+
+    <a href="http://maupp.ulb.ac.be/">
+    <img src="../../logos/MAUPP.png" alt="MAUPP">
+    </a>
+    <a href="http://react.ulb.be/">
+    <img src="../../logos/react.png" alt="react">
+    </a>
+    <a href="http://eo.belspo.be/About/Stereo3.aspx">
+    <img src="../../logos/BELSPO_logo_EN.jpg" alt="BELSPO_logo_EN">
+    </a>
+    <a href="http://igeat.ulb.ac.be/en/introduction/">
+    <img src="../../logos/igeat.jpg" alt="igeat">
+    </a>
+    <a href="http://spell.ulb.be">
+    <img src="../../logos/spell.png" alt="spell">
+    </a>
+    <a href="http://www.sic.rma.ac.be/">
+    <img src="../../logos/rma.png" alt="rma">
+    </a>
+    <a href="https://www.southampton.ac.uk/geography">
+    <img src="../../logos/southampton.png" alt="southampton" style="height: 20px">
+    </a>
+    <a href="https://www.unamur.be/en/sci/geography">
+    <img src="../../logos/UNAMUR.png" alt="UNAMUR">
+    </a>
+    <a href="https://ees.kuleuven.be/geography/">
+    <img src="../../logos/KULEUVEN.png" alt="KULEUVEN" style="height: 40px">
+    </a>
+    <a href="https://umaine.edu/ncgia/">
+    <img src="../../logos/UMAINE.png" alt="UMAINE" style="height: 35px">
+    </a>
+
+</div>
+
+<div class="text-center">
+
+    <h3>
+        Mapping urban land use at street block level using OpenStreetMap,
+        remote sensing data and spatial metrics
+    </h3>
+    <p> 
+        Published in ISPRS International Journal of Geo-Information
+        <a href="https://doi.org/10.3390/ijgi7070246">
+            <img src="../../logos/ijgi-logo.png" alt="ijgi-logo" height=35px hspace="10" align="bottom">
+        </a>
+    </p>
+
+</div>
+
+<div class="row switch">
+    <div class="col-md-12 text-center">
+        <button type="button" class="btn" onclick="displayMap('ouagadougou')">Ouagadougou</button>
+        <button type="button" class="btn" onclick="displayMap('dakar')">Dakar</button>
+    </div>
+</div>
+
+<div class="row">
+
+    <div id="map"></div>
+
+</div>
+
+<div class="row legend" id="legend-ouagadougou">
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land cover</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,26,28)" />
+                    </svg> High buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(255,132,56)" />
+                    </svg> Medium buildings
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(29,220,0)" />
+                    </svg> Low vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(0,128,0)" />
+                    </svg> Trees
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(211,217,173)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(182,182,182)" />
+                    </svg> Asphalt surfaces
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(30,30,192)" />
+                    </svg> Water bodies
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(94,221,227)" />
+                    </svg> Swimming pools
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land use</th>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(229,107,54)" />
+                    </svg> Planned residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,23,50)" />
+                    </svg> Unplanned residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#ffb83d" />
+                    </svg> Planned residential (low density)
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#f09da8" />
+                    </svg> Unplanned residential (low density)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(246,237,197)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(52,164,0)" />
+                    </svg> Vegetation
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(207,67,205)" />
+                    </svg> Non-residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#b0b0b0" />
+                    </svg> Uncertain
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<div class="row legend" id="legend-dakar">
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land cover</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(191,40,186)" />
+                    </svg> High buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,26,28)" />
+                    </svg> Medium buildings
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(255,132,56)" />
+                    </svg> Low buildings
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(182,182,182)" />
+                    </svg> Artificial ground surfaces
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(29,220,0)" />
+                    </svg> Low vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(0,128,0)" />
+                    </svg> Trees
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(30,30,192)" />
+                    </svg> Inland waters
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(94,221,227)" />
+                    </svg> Swimming pools
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(211,217,173)" />
+                    </svg> Bare soils
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <table>
+
+            <tr>
+                <th colspan=2 class="text-center">Land use</th>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(229,107,54)" />
+                    </svg> Planned residential
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(227,23,50)" />
+                    </svg> Deprived residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#ffb83d" />
+                    </svg> Planned residential (low density)
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#f09da8" />
+                    </svg> Deprived residential (low density)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(246,237,197)" />
+                    </svg> Bare soils
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(52,164,0)" />
+                    </svg> Natural vegetation
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#60da69" />
+                    </svg> Agricultural vegetation
+                </td>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:rgb(207,67,205)" />
+                    </svg> Non-residential
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <svg width="20" height="10">
+                        <rect width="20" height="10" style="fill:#b0b0b0" />
+                    </svg> Uncertain
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<div class="row references">
+
+    <h4>Methodology</h4>
+
+    <ul>
+        <li>[1] Grippa, T., Georganos, S., Zarougui, S., Bognounou, P., Diboulo, E., Forget, Y., Lennert, M., Vanhuysse, S., Mboga, N.  & Wolff, E. (2018). "Mapping urban land use at street block level using OpenStreetMap, remote sensing data and spatial metrics", ISPRS Int. J. Geo-Inf. 2018, 7(7), 246. <a href="https://doi.org/10.3390/ijgi7070246">doi:doi.org/10.3390/ijgi7070246.</a></li>
+        <li>[2] Grippa, T., Lennert, M., Beaumont, B., Vanhuysse, S., Stephenne, N. & Wolff, E. (2017). “An Open-Source Semi-Automated Processing Chain for Urban Object-Based Classification.” Remote Sensing 9 (4): 358. <a href="http://doi.org/10.3390/rs9040358">doi:10.3390/rs9040358.</a></li>
+        <li>[3] Grippa, T., Georganos, S., Vanhuysse, S., Lennert, M. & Wolff, E. (2017). “A Local Segmentation Parameter Optimization Approach for Mapping Heterogeneous Urban Environments Using VHR Imagery.” In Proceedings Volume 10431, Remote Sensing Technologies and Applications in Urban Environments II. IEEE. <a href="http://doi.org/10.1117/12.2278422">doi:10.1117/12.2278422.</a></li>
+    </ul>
+
+    <h4>Datasets</h4>
+
+    <ul>
+        <li>[1] Grippa, T. & Georganos, S. (2018). Ouagadougou very-high resolution land cover map (Version V1.0) [Data set]. Zenodo. <a href="http://doi.org/10.5281/zenodo.1290654">doi:10.5281/zenodo.1290654</a></li>
+        <li>[2] Grippa, T. & Georganos, S. (2018). Dakar very-high resolution land cover map (Version V1.0) [Data set]. Zenodo. <a href="http://doi.org/10.5281/zenodo.1290800">doi:10.5281/zenodo.1290800</a></li>
+        <li>[3] Grippa, T. & Georganos, S. (2018). Ouagadougou land use map at street block level (Version V1.0) [Data set]. Zenodo. <a href="http://doi.org/10.5281/zenodo.1291385">doi:10.5281/zenodo.1291385</a></li>
+        <li>[4] Grippa, T. & Georganos, S. (2018). Dakar land use map at street block level (Version V1.0) [Data set]. Zenodo. <a href="http://doi.org/10.5281/zenodo.1291389">doi:10.5281/zenodo.1291389</a></li>
+    </ul>
+
+</div>
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row vertical-align">
+          <a href="http://www.belspo.be"><img src="https://yannforget.github.io/maupp-website/images/belspo.jpg" class="logo img-responsive pull-left"></a>
+           <p>Research funded by the Belgian Science Policy, research project <a href="http://www.belspo.be/belspo/fedra/proj.asp?l=&COD=SR%2F00%2F304">SR/00/304</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://yannforget.github.io/maupp-website/js/jquery.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/bootstrap.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/Leaflet.VectorGrid.bundled.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet-providers.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/grippa2018.js"></script>
+
+  </body>
+</html>
+

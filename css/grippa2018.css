@@ -1,0 +1,42 @@
+#map {
+    width: 90%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+.legend table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.legend table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.switch {
+    margin-top: 20px;
+}
+
+.logos a:hover {
+    border-bottom: none;
+}
+
+.logos img {
+    min-height: 10px;
+    max-height: 70px;
+    width: auto;
+    margin: 10px;
+}
+
+.logos img:hover {
+    filter: brightness(125%);
+}
+
+.references h4 {
+    margin-bottom: 15px;
+}

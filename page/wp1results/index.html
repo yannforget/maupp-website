@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/maupp.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/leaflet.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/leaflet.fullscreen.css">
+    <link rel="stylesheet" href="https://yannforget.github.io/maupp-website/css/wp1webmap.css">
+
+    <link rel="icon" type="image/png" href="https://yannforget.github.io/maupp-website/images/favicon.png" />
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+
+  <div class="container">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="https://yannforget.github.io/maupp-website/"><img class="logo" src="../../images/maupp_white.png" alt="Logo"> MAUPP</a>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav">
+        
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Project</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/summary">Summary</a>
+							
+							<a class="dropdown-item" href="../../page/research-topic">Research topic</a>
+							
+							<a class="dropdown-item" href="../../page/objectives">Objectives</a>
+							
+							<a class="dropdown-item" href="../../page/methodology">Methodology</a>
+							
+						</div>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../news/">News</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../partner/">Partners</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../people/">Team</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/publications">Publications</a>
+					</li>
+					
+        
+					
+					<li class="nav-item">
+						<a class="nav-link" href="../../page/software">Software</a>
+					</li>
+					
+        
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenu">Data</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+							
+							<a class="dropdown-item" href="../../page/wp1results">Urban Expansion in Sub-Saharan Africa</a>
+							
+							<a class="dropdown-item" href="../../page/grippa2018">VHR Land Use Map of Ouagadougou and Dakar</a>
+							
+							<a class="dropdown-item" href="../../page/forget2018">Mapping Built-Up Areas with OSM</a>
+							
+							<a class="dropdown-item" href="../../page/population-maps">Population Maps</a>
+							
+						</div>
+					</li>
+					
+        
+      </ul>
+    </div>
+
+  </div>
+
+</nav>
+
+
+<div class="container singlepage">
+  <h2>Urban Expansion in Sub-Saharan Africa<br></h2>
+
+<hr>
+
+<div class="col">
+    <div class="row">
+        <div class="col">
+
+            <div class="dropdown show float-left select-city">
+                <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Case Study</a>
+                <div class="dropdown-menu multi-columns" aria-labelledby="dropdownMenuLink">
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="dropdown-header">Burkina Faso</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ouagadougou')">Ouagadougou</a>
+                            <h6 class="dropdown-header">Cote d'Ivoire</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('bouake')">Bouake</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('san_pedro')">San Pedro</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('yamoussoukro')">Yamoussoukro</a>
+                            <h6 class="dropdown-header">D.R. Congo</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('bukavu')">Bukavu</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kinshasa')">Kinshasa</a>
+                            <h6 class="dropdown-header">Ethiopia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('mekele')">Mekele</a>                      
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Gabon</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('libreville')">Libreville</a>
+                            <h6 class="dropdown-header">Ghana</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('obuasi')">Obuasi</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('tamale')">Tamale</a>
+                            <h6 class="dropdown-header">Guinea</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nzerekore')">Nzerekore</a>
+                            <h6 class="dropdown-header">Kenya</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kisumu')">Kisumu</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nairobi')">Nairobi</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Liberia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('monrovia')">Monrovia</a>
+                            <h6 class="dropdown-header">Madagascar</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('antananarivo')">Antananarivo</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('toamasina')">Toamasina</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('tulear')">Tulear</a>
+                            <h6 class="dropdown-header">Senegal</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('dakar')">Dakar</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kaolack')">Kaolack</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('saint_louis')">Saint-Louis</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ziguinchor')">Ziguinchor</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Mali</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('gao')">Gao</a>
+                            <h6 class="dropdown-header">Nigeria</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ikirun')">Ikirun</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('katsina')">Katsina</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('okene')">Okene</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('onitsha')">Onitsha</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('owo')">Owo</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('shaki')">Shaki</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('umuahia')">Umuahia</a>
+                            <h6 class="dropdown-header">Mozambique</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('chimoio')">Chimoio</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Namibia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('windhoek')">Windhoek</a>
+                            <h6 class="dropdown-header">Sierra Leone</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('freetown')">Freetown</a>
+                            <h6 class="dropdown-header">South Africa</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('johannesburg')">Johannesburg</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kayamandi')">Kayamandi</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('nelspruit')">Nelspruit</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('pietermaritzburg')">Pietermaritzburg</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('pietersburg')">Pietersburg</a>
+                        </div>
+                        <div class="col">
+                            <h6 class="dropdown-header">Tanzania</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('dodoma')">Dodoma</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('iringa')">Iringa</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('mbeya')">Mbeya</a>
+                            <h6 class="dropdown-header">Uganda</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kampala')">Kampala</a>
+                            <h6 class="dropdown-header">Zambia</h6>
+                            <a class="dropdown-item" href="#" onclick="displayMap('kabwe')">Kabwe</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('lusaka')">Lusaka</a>
+                            <a class="dropdown-item" href="#" onclick="displayMap('ndola')">Ndola</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="float-right select-map-type">
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupAreas')">Built-Up Areas</a>
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupHistory')">Built-Up
+                    Areas History</a>
+                <a class="btn btn-light" href="#" role="button" onclick="displayBuiltUp('builtupExpansion')">Urban
+                    Expansion</a>
+                    <a class="btn btn-light" href="https://zenodo.org/record/3234908" role="button">Download</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row wp1-webmap">
+        <div id="map"></div>
+    </div>
+
+</div>
+</div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row vertical-align">
+          <a href="http://www.belspo.be"><img src="https://yannforget.github.io/maupp-website/images/belspo.jpg" class="logo img-responsive pull-left"></a>
+           <p>Research funded by the Belgian Science Policy, research project <a href="http://www.belspo.be/belspo/fedra/proj.asp?l=&COD=SR%2F00%2F304">SR/00/304</a>.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://yannforget.github.io/maupp-website/js/jquery.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/bootstrap.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/popper.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet-providers.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/leaflet.groupedlayercontrol.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/Leaflet.fullscreen.min.js"></script>
+    <script src="https://yannforget.github.io/maupp-website/js/wp1webmap.js"></script>
+
+  </body>
+</html>
+
