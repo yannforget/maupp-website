@@ -5,9 +5,19 @@ var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Wor
 }
 );
 
+var osm = L.tileLayer(
+    'https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}',
+    {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 17,
+        id: 'light-v10',
+        accessToken: 'pk.eyJ1IjoieWFubmZvcmdldCIsImEiOiJjamgzYXR1d3UwZDN6MnhtcjBnYno3cDBwIn0.-niyuGtiqe_osXNIevrb5Q'
+    }
+);
+
 // Initialize Leaflet map
 var map = L.map('map', {
-    layers: [esri],
+    layers: [esri,osm],
     maxZoom: 17,
     minZoom: 11,
 });
@@ -17,7 +27,7 @@ L.control.scale({maxWidth: 200}).addTo(map);
 
 // Initialize layer control
 var controller = L.control.layers(
-    { 'Satellite imagery': esri },
+    { "Satellite": esri, "OpenStreetMap": osm },
     {},
     { collapsed: false }
 ).addTo(map);
@@ -70,14 +80,14 @@ function displayMap(city) {
     ]);
 
     // Remote land cover TMS layer
-    var landcover = L.tileLayer('https://maupp.yannforget.be/tiles/tgrippa/' + city + '_landcover/{z}/{x}/{y}.png', {
+    var landcover = L.tileLayer('../../raster_products/tiles/tgrippa/' + city + '_landcover/{z}/{x}/{y}.png', {
         tms: true,
         opacity: 1.0
     }).addTo(map);
 
     // Update layer control
     controller = L.control.layers(
-        { 'Satellite Imagery': esri },
+        { "Satellite": esri, "OpenStreetMap": osm },
         { 'Land cover': landcover },
         { collapsed: false }
     ).addTo(map);
