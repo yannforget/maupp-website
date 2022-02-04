@@ -1,1 +1,4 @@
+# Dont track changes in "public" dir
 public
+# Dont track changes in "static/raster_products" dir (the raster files of the webmaps)
+static/raster_products
