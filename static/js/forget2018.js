@@ -1,4 +1,4 @@
-var base_url = 'http://data.yannforget.me/papers/landsat-osm/reports/data/'
+var base_url = '../../raster_products/tiles/yforget/'
 
 var mapbox = L.tileLayer(
     'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}',
