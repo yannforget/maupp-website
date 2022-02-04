@@ -1,6 +1,6 @@
 // Satellite imagery from ESRI
 var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+    attribution: 'Tiles &copy; Esri &mdash; ',
     maxZoom: 17,
 }
 );
@@ -31,6 +31,29 @@ var controller = L.control.layers(
     {},
     { collapsed: false }
 ).addTo(map);
+
+// Add watermark with message for dates of base map
+L.Control.Watermark = L.Control.extend({
+    onAdd: function(map) {
+        var img = L.DomUtil.create('img');
+
+        img.src = '../../images/Webmap_disclaimer.png';
+        img.style.width = '350px';
+
+        return img;
+    },
+
+    onRemove: function(map) {
+        // Nothing to do here
+    }
+});
+
+L.control.watermark = function(opts) {
+    return new L.Control.Watermark(opts);
+}
+
+L.control.watermark({ position: 'bottomright' }).addTo(map);
+
 
 /*
 The following function update the view and the layers
